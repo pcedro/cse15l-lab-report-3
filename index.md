@@ -1,5 +1,4 @@
 # CSE15L Lab Report 3
----
 ## Part 1: Bugs
 A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 ```
@@ -51,8 +50,9 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 - First, I changed the for loop to iterate until arr.length/2 since it will swap elements only up to the halfpoint. Furthermore, by making a temp variable, it is set to temporarily store the back half of the array and then overwrites it with the front half.
+
 ---
-# Part 2: Researching Commands
+## Part 2: Researching Commands
 
 For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
